@@ -5,6 +5,7 @@
 This project analyzes 60+ years of European climate data using multi-label classification to predict daily pleasant weather across 15 stations. <b>Part 1</b> of the analysis compares three model families, including KNN, Decision Tree, and Artificial Neural Network (ANN), with a focus on handling imbalanced labels and capturing station-level variability. <b>Part 2</b> extends the original pleasant-weather classification work by shifting from baseline model comparison to structural pattern discovery, temporal instability analysis, interpretability, and scenario reasoning. These analyses are designed to align more directly with ClimateWins’ strategic questions around climate variability and long-term risk.
 
 <b>Objectives</b>
+
 <u>Part 1</u>
 - Build and evaluate ML models for pleasant-weather prediction
 - Use macro-F1 to address label imbalance across stations
@@ -19,6 +20,7 @@ This project analyzes 60+ years of European climate data using multi-label class
 - Explore the feasibility of visual machine learning as a complementary signal
 
 <b>Key Findings</b>
+
 <u>Part 1</u>
 - ANN Scenario 2 delivers the strongest overall performance (highest macro-F1 and most stable generalization).
 - Decision Tree (depth=10) performs well on predictable stations but is less consistent across variations.
